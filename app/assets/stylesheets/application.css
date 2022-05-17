@@ -13,3 +13,26 @@
  *= require_tree .
  *= require_self
  */
+.body{
+  font-family: "Times New Roman", Times, serif;
+}
+
+ .container {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  min-height: 100vh;
+  margin: 20px auto;
+ }
+
+ .btn {
+   background-color: bisque;
+   padding: 8px;
+   border-radius: 5px;
+   text-decoration: none;
+ }
+
+ .btn :hover {
+   background-color: beige;
+   transition: background-color, .5s;
+ }
